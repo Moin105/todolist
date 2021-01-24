@@ -1,0 +1,16 @@
+.forum{
+
+    display: flex;
+
+    .btn {
+
+        flex: 1;
+
+    }
+    .todo{
+        flex: 10 ;
+        padding: 15px;
+        background-color: gray;
+        color: white;
+    }
+}

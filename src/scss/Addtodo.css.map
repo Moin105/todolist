@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EAEF,OAAO,EAAE,IAAI;CAahB;;AAfD,AAII,MAJE,CAIF,IAAI,CAAC;EAED,IAAI,EAAE,CAAC;CAEV;;AARL,AASI,MATE,CASF,KAAK,CAAA;EACD,IAAI,EAAE,EAAG;EACT,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "Addtodo.scss"
+    ],
+    "names": [],
+    "file": "Addtodo.css"
+}

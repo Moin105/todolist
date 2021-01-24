@@ -1,0 +1,19 @@
+.active {
+  background-color: #393939;
+  padding: 10px;
+  border-bottom: 1px #ccc;
+}
+
+.btnStyle {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 5px 9px;
+  cursor: pointer;
+  float: right;
+}
+
+.chk {
+  margin: 5px 10px;
+}
+/*# sourceMappingURL=todolist.css.map */
