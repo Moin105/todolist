@@ -39,7 +39,7 @@ markComplete =(id) => {
   }) } );
 }
 
-  handleCompletedTasks = () => {
+  handleTasks = () => {
     if(this.state.completedTasks.length === 0 ){ console.log('fefef')
       this.setState({completedTasks:[...this.state.todos.filter(todo =>todo.completed === true)]})
     }  
@@ -70,10 +70,6 @@ this.setState({todos:[...this.state.todos,newTodo]})
 }
 
 
-showTask () {
-
-}
-
 
   render() {
     return(
@@ -89,7 +85,7 @@ showTask () {
                      <Addtodo addTodo={this.addTodo}/>
                        <Todos todos={this.state.completedTasks.length === 0 ? this.state.todos : this.state.completedTasks} markComplete={this.markComplete}
                       delTodo={this.delTodo}/>
-                      <button onClick={this.handleCompletedTasks}>COMPLETED TASK</button>
+                      <button className={'handleBtn'} onClick={this.handleTasks}>COMPLETED TASK</button>
                       
                   </React.Fragment>
               )}/>
